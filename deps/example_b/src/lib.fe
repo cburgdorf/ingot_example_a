@@ -1,0 +1,8 @@
+pub fn get_num() -> u256 {
+    return 1000
+}
+
+#test
+fn test_main(mut ctx: Context) {
+    assert get_num() == 1000
+}
